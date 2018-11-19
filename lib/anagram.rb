@@ -11,6 +11,6 @@ class Anagram
     output = []
     array.find_all do |elem|
       elem.split("").sort == @word
-
+    end
   end
 end
