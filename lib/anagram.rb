@@ -17,4 +17,5 @@ class Anagram
 
   def compare(words)
     @word.split("").sort == @word.split("").sort
+  end
 end
