@@ -12,4 +12,9 @@ class Anagram
       elem.split("").sort == @word.split("")
     end
   end
+
+  private
+
+  def compare(words)
+    @word.split("").sort == @word.split("").sort
 end
